@@ -1,4 +1,4 @@
 const readline = require("readline-sync")
-let userName = readline . question ("Say hello tothe user?");
-console.log( "Hello" + userName);
+let userName = readline . question ("Say hello to the user?");
+console.log( "Hello " + userName);
 

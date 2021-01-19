@@ -1,4 +1,4 @@
-const readline = require("../node_modules/readline-sync");
+const readline = require("readline-sync");
 let age = readline.question ("What's your age?");
 
 if (age>= 18) {

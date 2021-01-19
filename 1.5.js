@@ -1,6 +1,9 @@
-Math.trunc(32.05);
-Math.trunc(33);
+const readline = require("readline-sync")
+let aNum = readline . question ("Give me a decimal number ");
 
-console.log(32.05*33);
+let bNum = aNum * 2
 
-// AJOUTER CONST
+console.log(Math.trunc(bNum));
+
+
+// AJOUTER CONST: FIX IT
