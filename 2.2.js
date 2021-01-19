@@ -1,8 +1,14 @@
 const readline = require("readline-sync")
-let size = readline . question ("What's  your shoe size?");
-let size = 185;
-let weight = 80;
+let min = readline . question ("What's your min number ? ");
+let max = readline . question ("What's your max number ? ");
+let current = readline . question ("What's your current number ? ");
 
-if ((size >= 150) || (weight >= 45)) {
-  console.log("You probably are and adult");
+if (((Number (current)) >= (Number (min))) && ((Number (current)) <= (Number (max)))) {
+  console.log(current + " is between " +  min + "and " + max)
+} else {
+  console.log(current + " isn't between " +  min + "and " + max) }
+if ((Number (min)) > (Number (max))) {
+  console.log("Error this is not possible ");
 }
+
+
