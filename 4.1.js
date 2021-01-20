@@ -1,7 +1,7 @@
 function calcSurface (lenght, width) {
 return lenght + width;
 }
-console.log(calcSurface);
+console.log(calcSurface); 
 
 
 //****************************************************************************************** */

@@ -1,5 +1,6 @@
 const readline = require("readline-sync")
 let shoeSize = readline . question ("What's  your shoe size?");
+let bD = readline . question ("What's  your shoe size?");
 console.log( "My shoe size is " + shoeSize);
 
 

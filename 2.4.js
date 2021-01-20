@@ -1,7 +1,14 @@
 
+let a = 1;
+while (a<= 100) {
+    console.log(a); 
+    a += 1; 
+} 
 
-if (number/= 2) {
-    alert ("$number is pair"); 
-}else{
-    alert ("$number is impair");
+if (a%2 == 0) {
+    console.log(a/2);
 }
+else {
+    console.log(a*3);
+}
+
