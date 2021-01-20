@@ -29,7 +29,7 @@ console.log("No more questions! The final result is...");
 
 
 
-console.log( "The weird food combinations I do really enjoy is " + weird + " is the smell of " + odd + 
-" Maybe " + movie + " I get most of them from " + deco + " I think it's " + old +
-" I think this one is good " + joke + " Actually " + fun +
-" let me guess " + strange + " it will be " + noise);
+console.log( "The weird food combinations I do really enjoy is " + weird + " Is " + odd + 
+". Definetly " + movie + ". I get most of them " + deco + ". I think is " + old +
+" . This one is good !! " + joke + ". Actually, " + fun +
+". Let me guess " + strange + ". It will be " + noise);
