@@ -1,13 +1,7 @@
-const array = [1, 3, 2];
+let arr = [78768, 809, 54, 656, 16, 34]
+let min = Math.min.apply(null, arr)
+let max = Math.max.apply(null, arr)
 
-console.log(Math.max(...array1)) && (Math.min(...array1)) ;
- 
-let array = [1, 3, 2];
-if getArrayMax(array){
-    else Math.max.apply(null, array);
- }
- function getArrayMin(array){
-    return Math.min.apply(null, array);
- }
-
- // BE BACK INTO IT
+console.log(arr)
+console.log("Min : " + min)
+console.log("Max : " + max)

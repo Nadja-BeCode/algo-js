@@ -1,23 +1,23 @@
 const readline = require("readline-sync")
 let shoeSize = readline . question ("What's  your shoe size?");
-let bD = readline . question ("What's  your shoe size?");
+let yD = readline . question ("What's the year of your birth?");
 console.log( "My shoe size is " + shoeSize);
 
 
-let shoeSize = shoeSize * 2;
-console.log(36*2);
+let v = shoeSize * 2;
+console.log(v);
 
-let shoeSize = shoeSize + 5;
-console.log(72+5);
+let w = v + 5;
+console.log(w);
 
-let shoeSize = shoeSize * 50;
-console.log(72*50);
+let x = w * 50;
+console.log(x);
 
-let shoeSize = shoeSize - 2021;
-console.log(3600-2021);
+let y = x - yD;
+console.log(y);
 
-let shoeSize = shoeSize + 1766;
-console.log(3600+1766);
+let z = y + 1766;
+console.log(z);
 
 
 // NEED TO FINISH ???
