@@ -5,7 +5,7 @@ class circle {
     #radius;
 
 
-    constructor(xPos,yPos,radius){
+    constructor(x,y,r){
 
         this.#xPos = x;
         this.#yPos = y;
